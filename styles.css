@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servico {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 26.8vh;
+}
+
+/* Estilo para o botão de Termos de Política e Privacidade */
+.btn-terminos {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-terminos:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo específico para a página de Política de Privacidade */
+.politica-privacidade {
+    padding: 40px 0;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.politica-privacidade h1 {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.politica-privacidade h2 {
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #007BFF;
+}
+
+.politica-privacidade p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.politica-privacidade a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.politica-privacidade a:hover {
+    text-decoration: underline;
+}
+
+/* Design Responsivo */
+@media (max-width: 768px) {
+    .servicos-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .servico {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    footer .btn-terminos {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+    }
+
+    .politica-privacidade {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .politica-privacidade h1 {
+        font-size: 2rem;
+    }
+
+    .politica-privacidade h2 {
+        font-size: 1.5rem;
+    }
+
+    .politica-privacidade p {
+        font-size: 0.9rem;
+    }
+}
